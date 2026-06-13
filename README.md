@@ -107,4 +107,5 @@ The goal is to transform raw HR data into meaningful business insights through S
 - Employees working **overtime** show higher attrition compared to those not working overtime.
 - Attrition varies significantly across **job roles**.
 - Salary distribution differs across **departments** and **job roles**.
-- **Senior roles** generally receive higher compensation.
+- **Senior roles** generally receive higher compensation
+than others.
