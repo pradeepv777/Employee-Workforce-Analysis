@@ -117,6 +117,11 @@ Interactive dashboard built across 4 pages. Screenshots available in the `Screen
 - Visuals: Avg Salary by Department, Avg Salary by Job Role, Top Paid Employees
 - Filters: Department, Job Role
 
+### Page 4: Dashboard (Summary View)
+- A consolidated single-page overview combining key visuals across all analysis areas
+- Visuals: Employee Count by Department, Gender Distribution, Attrition by Department, Attrition by Job Role, Overtime vs Employee Attrition, Avg Monthly Salary by Department, Top 10 Highest Salary Employees table
+- Filters: Gender, Department, Job Role
+
 ---
 
 ## Key Insights
