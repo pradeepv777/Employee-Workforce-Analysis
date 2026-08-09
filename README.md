@@ -12,7 +12,6 @@ The goal is to transform raw HR data into meaningful business insights through S
 
 - MySQL
 - Power BI
-- SQL
 
 ---
 
@@ -27,16 +26,11 @@ The goal is to transform raw HR data into meaningful business insights through S
 
 ## SQL Analysis
 
-### Concepts Used
+Two SQL files cover foundational to advanced analysis.
 
-- **Aggregate Functions:** `COUNT()`, `AVG()`, `SUM()`
-- `GROUP BY`
-- `ORDER BY`
-- `CASE WHEN`
-- **Common Table Expressions (CTE)**
-- **Window Functions:** `DENSE_RANK()`
+### Workforce_Analysis.sql — Core Queries
 
-### Key SQL Analyses
+**Concepts Used:** `COUNT()`, `AVG()`, `SUM()`, `GROUP BY`, `ORDER BY`, `CASE WHEN`, CTE, `DENSE_RANK()`
 
 | # | Analysis |
 |---|----------|
@@ -47,65 +41,89 @@ The goal is to transform raw HR data into meaningful business insights through S
 | 5 | Attrition by Department |
 | 6 | Gender Distribution |
 | 7 | Attrition by Gender |
-| 8 | Average Salary by Department |
-| 9 | Job Role-wise Employee Count |
-| 10 | Attrition by Job Role |
-| 11 | Overtime vs Attrition |
-| 12 | Top 10 Highest Paid Employees |
-| 13 | Department Salary Analysis using CTE |
-| 14 | Employee Salary Ranking using `DENSE_RANK()` |
+| 8 | Job Role-wise Employee Count |
+| 9 | Attrition by Job Role |
+| 10 | Overtime vs Attrition |
+| 11 | Top 10 Highest Paid Employees |
+| 12 | Department-wise Average Salary using CTE |
+| 13 | Employee Salary Ranking using `DENSE_RANK()` |
+
+---
+
+### Workforce_Analysis_Advanced.sql — Advanced Queries
+
+**Concepts Used:** Subqueries, Window Functions (`DENSE_RANK()`, `RANK()`, `ROW_NUMBER()`), `HAVING`, correlated subqueries
+
+| # | Analysis |
+|---|----------|
+| 1 | Highest Paid Employee in Each Department |
+| 2 | Department-wise Attrition Rate |
+| 3 | Top 3 Highest Paid Employees per Department |
+| 4 | Employees Earning More Than Their Department Average |
+| 5 | Department with Highest Attrition Rate |
+| 6 | Salary Ranking using `DENSE_RANK`, `RANK`, `ROW_NUMBER` |
+| 7 | Departments with Attrition Rate Above 20% |
+| 8 | Salary Difference from Department Maximum |
+| 9 | Departments Where Employees Who Left Earn More Than Those Who Stayed |
+| 10 | Top 10% Highest Paid Employees |
+| 11 | Second Highest Salary in Each Department |
+
+---
+
+## Query Outputs
+
+All query results are exported as CSV files in the `QueryOutputs/` folder.
+
+| File | Description |
+|------|-------------|
+| TotalEmployees.csv | Total employee count |
+| EmployeesCount(AttritionCount).csv | Attrition count |
+| AttritionRate.csv | Overall attrition rate |
+| DepartmentWiseEmpCount.csv | Employee count by department |
+| AttritionByDept.csv | Attrition breakdown by department |
+| EmpGenderCount.csv | Gender distribution |
+| AttritionByGender.csv | Attrition by gender |
+| JobWiseEmpCount.csv | Employee count by job role |
+| JobWiseAttritionCount.csv | Attrition count by job role |
+| OvertimeVsAttrition.csv | Overtime impact on attrition |
+| Top10HighestPaidEmp.csv | Top 10 highest paid employees |
+| DeptWiseAvgSalary(CommonTableExp).csv | Dept-wise avg salary via CTE |
+| SalaryRanking(WindowFunc).csv | Salary ranking using window functions |
+| HighestSalDept.csv | Highest paid employee per department |
+| Top3HighestPaidEmp(Dept).csv | Top 3 paid employees per department |
+| EmpSalVSDeptAvg.csv | Employees earning above dept average |
+| DeptHighAttr.csv | Department with highest attrition rate |
+| SalRank(WindowFunc).csv | Salary ranking with RANK, DENSE_RANK, ROW_NUMBER |
+| DeptAttrAbove20%.csv | Departments with attrition rate above 20% |
+| MaxDiffEmpSal.csv | Salary difference from department maximum |
+| SecondHighestSalDeptWise.csv | Second highest salary per department |
+| Top10%PaidEmp.csv | Top 10% highest paid employees |
 
 ---
 
 ## Power BI Dashboard
 
+Interactive dashboard built across 4 pages. Screenshots available in the `Screenshots/` folder.
+
 ### Page 1: Workforce Overview
-
-**KPIs:**
-- Employee Count
-- Employees Left
-- Attrition Rate
-- Average Monthly Salary
-
-**Visuals:**
-- Department-wise Employee Count
-- Gender Distribution
-
----
+- KPIs: Employee Count, Employees Left, Attrition Rate, Avg Monthly Salary
+- Visuals: Department-wise Employee Count, Gender Distribution
 
 ### Page 2: Attrition Analysis
-
-**Visuals:**
-- Attrition by Department
-- Attrition by Job Role
-- Overtime vs Attrition
-
-**Filters:**
-- Department
-- Gender
-- Job Role
-
----
+- Visuals: Attrition by Department, Attrition by Job Role, Overtime vs Attrition
+- Filters: Department, Gender, Job Role
 
 ### Page 3: Compensation Analysis
-
-**Visuals:**
-- Average Salary by Department
-- Average Salary by Job Role
-- Top Paid Employees
-
-**Filters:**
-- Department
-- Job Role
+- Visuals: Avg Salary by Department, Avg Salary by Job Role, Top Paid Employees
+- Filters: Department, Job Role
 
 ---
 
 ## Key Insights
 
-- The overall employee attrition rate is approximately **16%**.
+- Overall employee attrition rate is approximately **16%**.
 - **Research & Development** has the highest employee count.
-- Employees working **overtime** show higher attrition compared to those not working overtime.
-- Attrition varies significantly across **job roles**.
-- Salary distribution differs across **departments** and **job roles**.
-- **Senior roles** generally receive higher compensation
-than others.
+- Employees working **overtime** show significantly higher attrition.
+- Attrition varies considerably across **job roles** and **departments**.
+- Some departments show employees who left earning **more** than those who stayed, suggesting compensation may be a factor in attrition.
+- **Senior roles** generally receive higher compensation than others.
