@@ -1,0 +1,484 @@
+EmployeeNumber,Department,MonthlyIncome
+12,"Research & Development",9526
+20,"Research & Development",9980
+23,Sales,15427
+28,"Research & Development",11994
+32,"Research & Development",19094
+36,"Research & Development",10248
+38,Sales,18947
+40,"Research & Development",6465
+56,Sales,8726
+58,"Research & Development",19545
+70,"Research & Development",9884
+73,"Research & Development",13458
+74,Sales,9069
+80,"Research & Development",18740
+81,Sales,7637
+83,"Research & Development",10096
+84,"Research & Development",14756
+85,"Research & Development",6499
+86,"Research & Development",9724
+101,"Research & Development",13245
+102,"Research & Development",13664
+106,Sales,10239
+112,"Research & Development",7260
+118,Sales,9619
+119,"Research & Development",13503
+124,"Research & Development",10673
+126,"Research & Development",13549
+131,Sales,13872
+140,"Human Resources",18844
+141,"Research & Development",18172
+145,"Research & Development",7484
+148,"Human Resources",17328
+152,Sales,7428
+153,"Research & Development",11631
+154,Sales,9738
+158,Sales,16959
+162,"Research & Development",19537
+165,"Research & Development",10312
+170,"Research & Development",6567
+174,Sales,9208
+176,Sales,8189
+179,"Research & Development",10650
+183,Sales,8639
+199,"Research & Development",17181
+204,Sales,7295
+207,Sales,8998
+215,Sales,10855
+223,"Research & Development",9439
+226,"Research & Development",19926
+228,Sales,9419
+230,Sales,8686
+244,Sales,10453
+253,"Research & Development",19033
+254,"Research & Development",18722
+256,"Research & Development",9547
+258,"Research & Development",13734
+259,"Research & Development",19999
+264,"Research & Development",16792
+271,"Research & Development",6553
+275,"Research & Development",6804
+282,"Research & Development",6673
+283,Sales,7639
+288,"Research & Development",9396
+291,Sales,10400
+292,"Research & Development",8474
+293,Sales,9981
+296,"Research & Development",12490
+298,Sales,13591
+302,Sales,8865
+306,"Research & Development",12185
+307,Sales,10609
+312,Sales,7918
+314,Sales,8789
+319,"Research & Development",19232
+323,Sales,19517
+327,Sales,16064
+329,Sales,19068
+336,"Research & Development",19202
+337,"Research & Development",13675
+341,"Research & Development",6434
+342,"Research & Development",10048
+343,"Research & Development",10938
+347,"Research & Development",6545
+352,"Research & Development",19436
+363,Sales,16872
+372,"Research & Development",13496
+374,"Research & Development",19045
+376,"Research & Development",11849
+380,"Research & Development",13603
+381,"Research & Development",11996
+384,"Research & Development",6397
+385,"Research & Development",19144
+386,"Research & Development",17584
+396,"Research & Development",18665
+404,Sales,13525
+406,Sales,8020
+410,Sales,16015
+417,"Research & Development",9613
+421,"Research & Development",12061
+428,"Research & Development",11878
+429,"Research & Development",17068
+431,"Research & Development",13964
+438,Sales,7547
+442,"Research & Development",8943
+444,"Research & Development",19272
+447,"Research & Development",18300
+451,"Research & Development",9985
+453,Sales,7457
+460,"Research & Development",6347
+461,"Research & Development",11510
+462,"Research & Development",7143
+463,Sales,8268
+464,"Research & Development",8095
+468,"Research & Development",15992
+473,Sales,12504
+477,"Research & Development",6781
+481,Sales,9699
+482,"Research & Development",6755
+488,Sales,9355
+491,"Research & Development",10496
+496,"Research & Development",6540
+499,"Research & Development",10965
+505,"Research & Development",16659
+513,Sales,7596
+520,"Research & Development",14336
+522,"Research & Development",19406
+531,"Research & Development",19197
+532,Sales,13212
+534,Sales,8392
+543,"Research & Development",7969
+546,"Research & Development",16555
+549,"Research & Development",19566
+558,Sales,18041
+564,"Research & Development",11935
+567,Sales,8412
+568,Sales,14118
+569,"Research & Development",17046
+573,Sales,10266
+575,"Research & Development",17861
+580,Sales,9071
+581,"Research & Development",10648
+582,"Research & Development",13610
+586,"Research & Development",7632
+587,"Research & Development",9824
+590,"Human Resources",9950
+592,Sales,9980
+597,Sales,16835
+601,"Research & Development",13237
+605,"Research & Development",7406
+612,"Research & Development",16184
+613,Sales,11557
+615,Sales,10932
+616,"Research & Development",6811
+623,"Research & Development",7491
+624,"Research & Development",10527
+625,Sales,16595
+626,Sales,8834
+634,"Research & Development",9824
+635,"Research & Development",6447
+638,"Research & Development",19502
+644,"Human Resources",18200
+656,Sales,9602
+661,"Research & Development",16627
+664,"Research & Development",15402
+671,"Research & Development",19513
+677,Sales,7104
+679,"Research & Development",6322
+682,Sales,8381
+689,"Research & Development",9434
+691,"Research & Development",6646
+692,"Research & Development",7725
+698,"Human Resources",10725
+699,"Research & Development",8847
+712,Sales,8120
+717,"Research & Development",8621
+724,"Research & Development",7625
+725,"Research & Development",7412
+727,"Research & Development",11159
+729,Sales,10475
+730,"Research & Development",14814
+731,"Human Resources",19141
+733,"Research & Development",8793
+734,"Human Resources",19189
+742,"Research & Development",11713
+743,"Research & Development",7861
+746,Sales,13770
+762,"Research & Development",11103
+764,"Research & Development",6811
+776,Sales,16856
+787,"Research & Development",19859
+789,Sales,7587
+809,"Research & Development",18430
+815,"Research & Development",17639
+817,"Research & Development",11691
+820,"Research & Development",16752
+825,"Research & Development",19246
+833,"Research & Development",6877
+837,"Research & Development",6288
+840,Sales,7654
+843,"Research & Development",17159
+844,"Research & Development",12808
+845,"Research & Development",10221
+851,Sales,16307
+862,Sales,10934
+864,Sales,10761
+867,"Research & Development",13826
+880,"Research & Development",10685
+897,Sales,11836
+899,"Research & Development",10903
+901,"Research & Development",14275
+904,Sales,7642
+905,"Research & Development",17924
+924,"Research & Development",6586
+940,"Research & Development",10552
+944,"Research & Development",7403
+950,"Research & Development",13582
+954,Sales,9705
+966,"Research & Development",6725
+967,Sales,10325
+969,"Research & Development",6949
+970,Sales,10609
+976,"Research & Development",17099
+981,Sales,14852
+982,Sales,7264
+984,Sales,7823
+985,Sales,7880
+986,Sales,13194
+992,Sales,17444
+997,"Research & Development",17399
+999,"Research & Development",19419
+1005,"Research & Development",13973
+1007,"Research & Development",10845
+1013,"Research & Development",10739
+1014,"Research & Development",10388
+1015,"Research & Development",11416
+1024,"Research & Development",10999
+1026,"Research & Development",12742
+1029,Sales,18303
+1032,"Research & Development",13726
+1034,"Research & Development",6385
+1035,"Research & Development",19973
+1038,Sales,19845
+1039,Sales,13320
+1043,"Research & Development",10880
+1045,Sales,17650
+1047,Sales,9725
+1048,Sales,11904
+1050,Sales,7525
+1061,"Research & Development",19237
+1066,Sales,8396
+1069,"Research & Development",19627
+1070,Sales,10686
+1073,"Research & Development",8858
+1074,"Research & Development",16756
+1076,Sales,10798
+1082,"Research & Development",8722
+1084,"Research & Development",9957
+1088,"Research & Development",8823
+1092,"Research & Development",10322
+1096,"Research & Development",10976
+1098,"Human Resources",10482
+1099,"Research & Development",7119
+1100,Sales,9582
+1103,"Research & Development",7756
+1109,"Research & Development",17665
+1116,"Research & Development",16885
+1118,"Research & Development",10445
+1119,Sales,8740
+1121,"Research & Development",7655
+1124,Sales,17465
+1125,Sales,7351
+1126,"Research & Development",10820
+1127,"Research & Development",12169
+1128,"Research & Development",19626
+1132,"Research & Development",6782
+1133,"Research & Development",7779
+1138,Sales,13120
+1157,Sales,8224
+1165,Sales,7336
+1166,"Research & Development",13499
+1167,Sales,13758
+1182,"Research & Development",10274
+1191,"Research & Development",19943
+1196,"Research & Development",6474
+1201,"Research & Development",18606
+1204,Sales,17048
+1215,"Research & Development",17856
+1217,"Research & Development",19081
+1218,Sales,8966
+1228,"Research & Development",7379
+1237,"Research & Development",10252
+1242,"Research & Development",13191
+1243,Sales,10377
+1245,"Research & Development",10502
+1250,"Research & Development",17779
+1251,"Research & Development",6833
+1252,"Research & Development",6812
+1255,"Research & Development",19740
+1256,"Research & Development",18711
+1260,"Research & Development",6623
+1263,"Research & Development",18265
+1264,"Research & Development",16124
+1267,Sales,18213
+1268,Sales,8380
+1277,Sales,18824
+1278,"Research & Development",13577
+1280,Sales,18789
+1282,Sales,19847
+1283,"Research & Development",10512
+1288,"Research & Development",19190
+1293,Sales,10231
+1295,"Research & Development",7978
+1306,"Research & Development",18061
+1307,"Research & Development",17123
+1312,"Research & Development",7094
+1315,"Research & Development",6674
+1317,"Research & Development",16880
+1318,Sales,9094
+1319,Sales,8446
+1321,"Research & Development",11916
+1324,Sales,9852
+1334,"Research & Development",17861
+1336,"Research & Development",19187
+1338,"Human Resources",19717
+1344,"Research & Development",8500
+1352,"Human Resources",14026
+1360,"Research & Development",10008
+1363,"Research & Development",7898
+1367,"Research & Development",13142
+1372,Sales,13695
+1373,"Research & Development",13402
+1375,"Research & Development",6377
+1383,"Research & Development",6687
+1391,Sales,10596
+1395,Sales,9998
+1397,"Research & Development",10920
+1401,"Research & Development",13247
+1408,"Human Resources",16799
+1412,"Research & Development",9362
+1419,"Human Resources",7988
+1421,"Research & Development",7553
+1422,"Research & Development",17328
+1423,"Research & Development",19701
+1424,"Research & Development",14732
+1425,Sales,9278
+1430,"Research & Development",16422
+1443,"Research & Development",17169
+1446,Sales,9204
+1453,Sales,10793
+1457,Sales,10096
+1459,"Research & Development",7446
+1460,"Research & Development",10851
+1465,"Research & Development",9380
+1468,"Research & Development",13757
+1469,Sales,8463
+1472,"Research & Development",16598
+1473,"Research & Development",6651
+1484,"Research & Development",10466
+1485,"Research & Development",17007
+1496,"Research & Development",10209
+1497,Sales,8620
+1514,"Research & Development",6549
+1515,"Research & Development",6388
+1516,"Research & Development",11244
+1520,"Research & Development",16032
+1523,"Research & Development",16328
+1525,"Research & Development",8376
+1527,Sales,16606
+1529,"Research & Development",8606
+1535,Sales,7083
+1539,"Research & Development",14411
+1544,"Research & Development",9715
+1547,"Research & Development",10124
+1550,"Human Resources",16437
+1553,"Research & Development",7441
+1562,Sales,9714
+1568,Sales,9250
+1572,"Research & Development",10169
+1578,Sales,19586
+1582,Sales,9924
+1588,Sales,8237
+1590,"Research & Development",8853
+1591,Sales,19331
+1595,"Research & Development",19613
+1602,Sales,17567
+1606,"Research & Development",11245
+1608,"Research & Development",19049
+1625,"Human Resources",19658
+1628,"Research & Development",10435
+1638,"Research & Development",7756
+1639,Sales,10306
+1641,"Research & Development",7945
+1644,"Research & Development",15202
+1651,"Research & Development",8008
+1655,"Research & Development",16413
+1656,"Research & Development",13269
+1661,"Research & Development",13966
+1664,"Research & Development",6842
+1665,"Research & Development",17426
+1666,"Research & Development",17603
+1676,Sales,15972
+1677,"Research & Development",15379
+1678,Sales,7082
+1689,"Research & Development",7005
+1697,"Research & Development",10883
+1700,Sales,9525
+1703,"Research & Development",7879
+1706,Sales,7847
+1708,Sales,9241
+1712,"Research & Development",10748
+1716,Sales,12936
+1719,"Research & Development",16704
+1724,"Research & Development",6516
+1728,"Research & Development",6883
+1732,Sales,10368
+1737,"Research & Development",6472
+1739,Sales,9610
+1740,Sales,19833
+1744,"Human Resources",9756
+1749,Sales,8346
+1753,"Research & Development",6294
+1754,Sales,7140
+1758,Sales,8564
+1761,Sales,8161
+1770,"Research & Development",19038
+1775,"Research & Development",12965
+1786,"Research & Development",13116
+1789,"Research & Development",19328
+1790,"Research & Development",8321
+1800,"Research & Development",13464
+1801,Sales,7991
+1814,"Research & Development",6870
+1815,Sales,10447
+1816,"Research & Development",9667
+1821,"Research & Development",8926
+1822,"Research & Development",6513
+1824,Sales,16291
+1827,"Research & Development",10333
+1830,"Research & Development",6854
+1833,Sales,9637
+1837,"Research & Development",15787
+1847,"Research & Development",6962
+1857,"Research & Development",8578
+1859,"Research & Development",6384
+1862,Sales,9907
+1863,Sales,13225
+1866,"Research & Development",19392
+1867,"Research & Development",19665
+1869,Sales,7314
+1882,Sales,9713
+1892,"Research & Development",16823
+1900,"Research & Development",17174
+1911,"Research & Development",13348
+1915,Sales,8103
+1933,Sales,9854
+1938,Sales,17875
+1941,"Research & Development",19161
+1950,Sales,9888
+1951,Sales,8628
+1955,"Research & Development",6667
+1966,"Research & Development",9679
+1968,Sales,10448
+1971,"Research & Development",7510
+1973,"Human Resources",19636
+1975,Sales,13341
+1979,"Research & Development",11031
+1985,"Research & Development",6323
+1993,"Research & Development",8633
+2000,"Research & Development",11957
+2015,"Research & Development",13206
+2016,Sales,10422
+2017,"Research & Development",13744
+2022,"Research & Development",19431
+2024,Sales,7644
+2026,"Research & Development",6306
+2031,"Research & Development",18880
+2034,"Research & Development",13570
+2037,Sales,8938
+2040,"Human Resources",8837
+2055,Sales,10854
+2056,Sales,12031
+2057,"Research & Development",9936
+2062,"Research & Development",9991
