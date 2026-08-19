@@ -102,6 +102,8 @@ All query results are exported as CSV files in the `QueryOutputs/` folder.
 ---
 
 ## Power BI Dashboard
+### Dashboard Preview
+<img width="1377" height="750" alt="image" src="https://github.com/user-attachments/assets/742c7f77-5438-42cc-97e1-4ff6af62a29e" />
 
 Interactive dashboard built across 4 pages. Screenshots available in the `Screenshots/` folder.
 
@@ -118,6 +120,7 @@ Interactive dashboard built across 4 pages. Screenshots available in the `Screen
 - Filters: Department, Job Role
 
 ### Page 4: Dashboard (Summary View)
+
 - A consolidated single-page overview combining key visuals across all analysis areas
 - Visuals: Employee Count by Department, Gender Distribution, Attrition by Department, Attrition by Job Role, Overtime vs Employee Attrition, Avg Monthly Salary by Department, Top 10 Highest Salary Employees table
 - Filters: Gender, Department, Job Role
