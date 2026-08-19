@@ -28,7 +28,7 @@ The goal is to transform raw HR data into meaningful business insights through S
 
 Two SQL files cover foundational to advanced analysis.
 
-### Workforce_Analysis.sql — Core Queries
+### Workforce_Analysis.sql - Core Queries
 
 **Concepts Used:** `COUNT()`, `AVG()`, `SUM()`, `GROUP BY`, `ORDER BY`, `CASE WHEN`, CTE, `DENSE_RANK()`
 
@@ -50,7 +50,7 @@ Two SQL files cover foundational to advanced analysis.
 
 ---
 
-### Workforce_Analysis_Advanced.sql — Advanced Queries
+### Workforce_Analysis_Advanced.sql - Advanced Queries
 
 **Concepts Used:** Subqueries, Window Functions (`DENSE_RANK()`, `RANK()`, `ROW_NUMBER()`), `HAVING`, correlated subqueries
 
@@ -127,15 +127,15 @@ Interactive dashboard built across 4 pages. Screenshots available in the `Screen
 ## Key Insights
 
 ### Workforce Composition
-- Total workforce: **1,470 employees** — Research & Development dominates with **961 (65%)**, followed by Sales at **446 (30%)** and Human Resources at **63 (5%)**.
+- Total workforce: **1,470 employees** - Research & Development dominates with **961 (65%)**, followed by Sales at **446 (30%)** and Human Resources at **63 (5%)**.
 - Gender split: **882 males (60%)** and **588 females (40%)**.
 
 ### Attrition
-- Overall attrition rate: **16.12%** — 237 employees left out of 1,470.
+- Overall attrition rate: **16.12%** - 237 employees left out of 1,470.
 - **Sales has the highest attrition rate at 21%**, the only department exceeding the 20% threshold. R&D and HR are below it.
 - By volume, R&D lost the most employees (**133**), but this reflects its larger headcount. Sales has a worse rate proportionally.
 - **Laboratory Technicians (62)** and **Sales Executives (57)** account for the highest attrition counts by job role, followed by Research Scientists (47).
-- Overtime is a strong attrition signal: employees working overtime left at a rate of **~30.5%** (127 out of 416), vs **~10.4%** (110 out of 1,054) for those without overtime — nearly **3× higher**.
+- Overtime is a strong attrition signal: employees working overtime left at a rate of **~30.5%** (127 out of 416), vs **~10.4%** (110 out of 1,054) for those without overtime - nearly **3× higher**.
 - Male employees account for more attrition in absolute numbers (**150 vs 87**), consistent with their larger share of the workforce.
 
 ### Compensation
