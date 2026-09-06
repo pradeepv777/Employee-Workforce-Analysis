@@ -6,6 +6,9 @@ This project analyzes employee workforce data using **MySQL** and **Power BI** t
 
 The goal is to transform raw HR data into meaningful business insights through SQL analysis and interactive Power BI dashboards.
 
+### Dashboard Preview
+<img width="1377" height="750" alt="image" src="https://github.com/user-attachments/assets/742c7f77-5438-42cc-97e1-4ff6af62a29e" />
+
 ---
 
 ## Tools Used
@@ -102,10 +105,11 @@ All query results are exported as CSV files in the `QueryOutputs/` folder.
 ---
 
 ## Power BI Dashboard
-### Dashboard Preview
-<img width="1377" height="750" alt="image" src="https://github.com/user-attachments/assets/742c7f77-5438-42cc-97e1-4ff6af62a29e" />
 
 Interactive dashboard built across 4 pages. Screenshots available in the `Screenshots/` folder.
+
+### Dashboard
+
 
 ### Page 1: Workforce Overview
 - KPIs: Employee Count, Employees Left, Attrition Rate, Avg Monthly Salary
