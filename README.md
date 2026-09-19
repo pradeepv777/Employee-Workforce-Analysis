@@ -88,19 +88,3 @@ EmployeeWorkforceAnalysis/
 - **Data Model Architecture ([`Data_Model_Architecture.md`](file:///c:/Users/prade/OneDrive/Desktop/Proj/EmployeeWorkforceAnalysis/DAX/Data_Model_Architecture.md))**: Documents transition from flat table to an enterprise Star Schema (`Fact_Employee` + 4 dimension tables).
 - **DAX Formula Catalog ([`DAX_Measures.md`](file:///c:/Users/prade/OneDrive/Desktop/Proj/EmployeeWorkforceAnalysis/DAX/DAX_Measures.md))**: Standardized formulas for headcount, attrition rates, and turnover cost scenario modeling.
 
----
-
-## How to Run
-
-1. **Database Setup (MySQL)**:
-   Import `Dataset/WA_Fn-UseC_-HR-Employee-Attrition.csv` into MySQL and execute the scripts in [`SQL/`](file:///c:/Users/prade/OneDrive/Desktop/Proj/EmployeeWorkforceAnalysis/SQL) sequentially.
-2. **Run Notebook (Python)**:
-   ```bash
-   pip install pandas numpy scipy matplotlib seaborn statsmodels jupyter
-   jupyter notebook notebooks/Workforce_Analysis.ipynb
-   ```
-3. **Open Dashboard (Power BI)**:
-   Open [`Power BI/Employee_Workforce_Analysis.pbix`](file:///c:/Users/prade/OneDrive/Desktop/Proj/EmployeeWorkforceAnalysis/Power%20BI/Employee_Workforce_Analysis.pbix) in Power BI Desktop to explore the interactive reports and slicers.
-
----
-
