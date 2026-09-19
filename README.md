@@ -50,7 +50,7 @@ EmployeeWorkforceAnalysis/
 |   |-- Workforce_Analysis_Advanced.sql           # Subqueries, window functions, salary rankings
 |   `-- Workforce_Analysis_Cohorts.sql            # Tenure cohorts, cross-rates & rate rankings
 |-- notebooks/
-|   `-- HR_Workforce_Statistical_Analysis.ipynb   # Executed Jupyter Notebook (EDA & Stats)
+|   `-- Workforce_Analysis.ipynb                  # Executed Jupyter Notebook (EDA & Stats)
 |-- DAX/
 |   |-- DAX_Measures.md                           # Standardized DAX expressions & KPI catalog
 |   `-- Data_Model_Architecture.md                # Proposed Star Schema design specification
@@ -97,7 +97,7 @@ EmployeeWorkforceAnalysis/
 2. **Run Notebook (Python)**:
    ```bash
    pip install pandas numpy scipy matplotlib seaborn statsmodels jupyter
-   jupyter notebook notebooks/HR_Workforce_Statistical_Analysis.ipynb
+   jupyter notebook notebooks/Workforce_Analysis.ipynb
    ```
 3. **Open Dashboard (Power BI)**:
    Open [`Power BI/Employee_Workforce_Analysis.pbix`](file:///c:/Users/prade/OneDrive/Desktop/Proj/EmployeeWorkforceAnalysis/Power%20BI/Employee_Workforce_Analysis.pbix) in Power BI Desktop to explore the interactive reports and slicers.
