@@ -1,0 +1,10 @@
+JobRole,EarlyTenureEmployees,EarlyAttritionCount,EarlyAttritionRatePct,EarlyAttritionRank
+Sales Representative,62,28,45.16,1
+Human Resources,20,8,40.0,2
+Laboratory Technician,114,39,34.21,3
+Sales Executive,68,18,26.47,4
+Research Scientist,116,23,19.83,5
+Healthcare Representative,27,3,11.11,6
+Manufacturing Director,31,3,9.68,7
+Manager,17,0,0.0,8
+Research Director,15,0,0.0,8

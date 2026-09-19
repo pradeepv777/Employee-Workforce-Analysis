@@ -1,0 +1,19 @@
+JobRole,OverTime,TotalEmployees,AttritionCount,AttritionRatePct
+Healthcare Representative,No,94,7,7.45
+Healthcare Representative,Yes,37,2,5.41
+Human Resources,No,39,7,17.95
+Human Resources,Yes,13,5,38.46
+Laboratory Technician,No,197,31,15.74
+Laboratory Technician,Yes,62,31,50.0
+Manager,No,75,1,1.33
+Manager,Yes,27,4,14.81
+Manufacturing Director,No,106,6,5.66
+Manufacturing Director,Yes,39,4,10.26
+Research Director,No,57,1,1.75
+Research Director,Yes,23,1,4.35
+Research Scientist,No,195,14,7.18
+Research Scientist,Yes,97,33,34.02
+Sales Executive,No,232,26,11.21
+Sales Executive,Yes,94,31,32.98
+Sales Representative,No,59,17,28.81
+Sales Representative,Yes,24,16,66.67

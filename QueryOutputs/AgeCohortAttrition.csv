@@ -1,0 +1,5 @@
+AgeCohort,TotalEmployees,AttritionCount,AttritionRatePct,AvgMonthlyIncome
+Under 30,326,91,27.91,3692.35
+30-39,622,89,14.31,5599.25
+50+,173,23,13.29,10942.91
+40-49,349,34,9.74,8537.96
