@@ -1,16 +1,10 @@
 # Employee Workforce & Attrition Analysis
 
-[![MySQL](https://img.shields.io/badge/Database-MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)](SQL/)
-[![Python](https://img.shields.io/badge/Statistical_Analysis-Python_3.13-3776AB?style=for-the-badge&logo=python&logoColor=white)](notebooks/)
-[![Power BI](https://img.shields.io/badge/Business_Intelligence-Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](Power%20BI/)
-[![Dataset](https://img.shields.io/badge/Dataset-IBM_HR_Analytics-blue?style=for-the-badge)](Dataset/)
-[![Status](https://img.shields.io/badge/Project_Status-Completed-success?style=for-the-badge)]()
-
 An end-to-end People Analytics project analyzing employee turnover patterns across 1,470 records. This project connects **MySQL database querying**, **Python statistical modeling**, and **Power BI interactive reporting** to diagnose flight-risk drivers and provide actionable HR retention strategies.
 
 ---
 
-## 📊 Dashboard Preview
+##  Dashboard Preview
 
 <p align="center">
   <img width="100%" alt="Power BI Dashboard" src="https://github.com/user-attachments/assets/742c7f77-5438-42cc-97e1-4ff6af62a29e" />
@@ -18,7 +12,7 @@ An end-to-end People Analytics project analyzing employee turnover patterns acro
 
 ---
 
-## 🎯 Key Findings & Business Takeaways
+## Key Findings & Business Takeaways
 
 | Finding | Metric / Evidence | Business Impact |
 | :--- | :--- | :--- |
@@ -29,7 +23,7 @@ An end-to-end People Analytics project analyzing employee turnover patterns acro
 
 ---
 
-## 🛠️ Tech Stack & Workflow
+## Tech Stack & Workflow
 
 ```
 [ IBM HR Dataset (1.47k) ] ──▶ [ MySQL Analytics ] ──▶ [ Python Inference ] ──▶ [ Power BI Dashboard ]
@@ -45,7 +39,7 @@ An end-to-end People Analytics project analyzing employee turnover patterns acro
 
 ---
 
-## 📂 Project Architecture
+## Project Architecture
 
 ```
 EmployeeWorkforceAnalysis/
@@ -69,7 +63,7 @@ EmployeeWorkforceAnalysis/
 
 ---
 
-## 🔍 Analytical Breakdown
+## Analytical Breakdown
 
 ### 1. SQL Analysis ([`SQL/`](file:///c:/Users/prade/OneDrive/Desktop/Proj/EmployeeWorkforceAnalysis/SQL))
 - **Core Queries ([`Workforce_Analysis.sql`](file:///c:/Users/prade/OneDrive/Desktop/Proj/EmployeeWorkforceAnalysis/SQL/Workforce_Analysis.sql))**: Headcount baselines, department distributions, gender splits, and initial turnover volumes.
@@ -96,7 +90,7 @@ EmployeeWorkforceAnalysis/
 
 ---
 
-## 🚀 How to Run & Reproduce
+## How to Run
 
 1. **Database Setup (MySQL)**:
    Import `Dataset/WA_Fn-UseC_-HR-Employee-Attrition.csv` into MySQL and execute the scripts in [`SQL/`](file:///c:/Users/prade/OneDrive/Desktop/Proj/EmployeeWorkforceAnalysis/SQL) sequentially.
@@ -110,8 +104,3 @@ EmployeeWorkforceAnalysis/
 
 ---
 
-## 📌 Resume Highlights
-
-- **Workforce Analytics (MySQL):** *Analyzed turnover patterns across 1,470 employee records using MySQL (CTEs, Window Functions, and aggregations), evaluating department-level distributions and identifying a 30.5% attrition rate among overtime workers vs. 10.4% for standard-hours peers.*
-- **Statistical Inference & Driver Modeling (Python):** *Performed hypothesis testing in Python using Chi-Square independence tests ($\chi^2 = 87.56, p < 0.001$), Mann-Whitney U tests on compensation ($p < 0.001$), and multivariable logistic regression to quantify adjusted odds ratios for turnover factors.*
-- **BI Reporting & Metric Design (Power BI):** *Built an interactive multi-page Power BI dashboard visualizing workforce demographics and turnover distributions, while documenting proposed dimensional model architecture and standard DAX KPI formulas.*
