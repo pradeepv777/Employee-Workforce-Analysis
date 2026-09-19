@@ -8,6 +8,9 @@
 
 An end-to-end People Analytics portfolio project analyzing employee turnover patterns across 1,470 employee records. The analysis connects **relational database queries (MySQL)**, **formal statistical inference & driver modeling (Python)**, and **interactive visual reporting (Power BI)** to evaluate workforce retention patterns and provide structured decision-support findings.
 
+### Dashboard Preview
+<img width="1377" height="750" alt="image" src="https://github.com/user-attachments/assets/742c7f77-5438-42cc-97e1-4ff6af62a29e" />
+
 ---
 
 ## Power BI Dashboard Preview
